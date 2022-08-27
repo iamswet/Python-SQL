@@ -5,7 +5,7 @@ import mysql.connector
 
 admin={"Tarun":2255,"Karan":1616}
 
-mydb=mysql.connector.connect(host="localhost",user="root",passwd="MySQL123!")
+mydb=mysql.connector.connect(host="localhost",user="root",passwd="SQL pass")
 mycursor=mydb.cursor()
 mycursor.execute("use elecbill")
 l_customer=list()
